@@ -1,6 +1,44 @@
-.body {
-  background-image: url("https://i.pinimg.com/736x/7e/c6/65/7ec665db77ec459569d82ef4e1df0606.jpg");
+a {
+  margin: 0px 20px 0px 20px;
+  color: rgb(184, 198, 255);
+  font-size: 20px;
+  font-family: "Azeret Mono";
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+body {
+  background-image: url("https://rafaelpizzo.com/wp-content/themes/rafaelpizzo/img/background_digital.png");
   background-size: cover;
   width: 100vw;
   height: 100vh;
+  background-color: rgb(184, 198, 255);
+}
+
+nav {
+  margin: 20px 0px 0px 300px;
+}
+
+.headshot {
+  width: 250px;
+  height: 250px;
+  margin: 75px 0px 0px 800px;
+  border: solid 5px rgb(184, 198, 255);
+  padding: 25px;
+  background-color: rgb(36, 28, 27);
 }
