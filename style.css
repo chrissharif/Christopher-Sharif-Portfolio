@@ -108,6 +108,17 @@ li::before {
   color: seagreen;
 }
 
+.github {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  margin: 0px 200px 0px 0px;
+}
+
+.github:hover {
+  opacity: 30%;
+}
+
 .headshot {
   width: 250px;
   height: 250px;
@@ -122,6 +133,16 @@ li::before {
   font-size: 40px;
   color: rgb(51, 255, 197);
   margin: 0px 0px 0px 200px;
+}
+
+.linked-in {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+
+.linked-in:hover {
+  opacity: 30%;
 }
 
 .list {
@@ -150,7 +171,20 @@ li::before {
   text-align: center;
   margin: -50px 0px 50px 500px;
   width: 300px;
-  background-color: rgb(51, 255, 197);
+}
+
+.my-socials {
+  margin: 200px 0px 0px 0px;
+}
+
+.my-socials-title {
+  color: white;
+  text-shadow: -2px 2px black;
+  font-size: 40px;
+  font-weight: 800;
+  font-family: "Azeret Mono", "Times New Roman";
+  margin: -50px 0px 50px 500px;
+  width: 300px;
 }
 
 .name {
@@ -195,6 +229,10 @@ li::before {
   border: 5px solid white;
 }
 
+.project-image:hover {
+  border: 5px solid royalblue;
+}
+
 .project-line {
   margin: 0px 100px 100px 100px;
   display: flex;
@@ -214,6 +252,15 @@ li::before {
   border: 2px solid black;
   border-radius: 20px;
   box-shadow: 5px 5px royalblue;
+}
+
+.socials {
+  margin: 200px 0px 0px 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  padding: 0px 0px 200px 0px;
 }
 
 .white-line {
