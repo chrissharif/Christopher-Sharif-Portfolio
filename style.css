@@ -63,6 +63,11 @@ li::before {
   width: 500px;
   text-align: left;
   font-size: 20px;
+  background-color: white;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 20px;
+  box-shadow: 5px 8px royalblue;
 }
 
 .about-me-text {
@@ -95,8 +100,12 @@ li::before {
 }
 
 .ga-link {
-  color: lightcoral;
+  color: violet;
   font-weight: 800;
+}
+
+.ga-link:hover {
+  color: seagreen;
 }
 
 .headshot {
@@ -119,6 +128,11 @@ li::before {
   margin: 100px 0px 300px 100px;
   color: black;
   font-size: 18px;
+  background-color: white;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 20px;
+  box-shadow: 5px 8px royalblue;
 }
 
 .my-projects {
@@ -136,6 +150,7 @@ li::before {
   text-align: center;
   margin: -50px 0px 50px 500px;
   width: 300px;
+  background-color: rgb(51, 255, 197);
 }
 
 .name {
@@ -147,6 +162,7 @@ li::before {
   flex-wrap: wrap;
   top: 75px;
   left: 300px;
+  font-weight: 800;
 }
 
 .nav-link {
@@ -174,6 +190,9 @@ li::before {
 .project-image {
   width: 400px;
   height: 200px;
+  border-radius: 20px;
+  background-color: white;
+  border: 5px solid white;
 }
 
 .project-line {
@@ -188,8 +207,13 @@ li::before {
   text-align: center;
   font-weight: 800;
   font-family: "Azeret Mono", "Times New Roman";
-  margin: 0px 0px 20px 80px;
+  margin: 0px 0px 30px 80px;
   font-size: 20px;
+  background-color: white;
+  padding: 15px 0px 10px 0px;
+  border: 2px solid black;
+  border-radius: 20px;
+  box-shadow: 5px 5px royalblue;
 }
 
 .white-line {
