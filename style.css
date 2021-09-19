@@ -16,12 +16,21 @@ a:active {
 }
 
 body {
-  background-image: url("https://rafaelpizzo.com/wp-content/themes/rafaelpizzo/img/background_digital.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 50vw;
+  background-color: white;
   height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
   background-color: rgb(51, 255, 197);
+  border-radius: 30px;
+  border: solid 5px white;
+  height: auto;
+  width: 90vw;
+  box-shadow: -10px 10px black;
 }
 
 label {
@@ -29,9 +38,10 @@ label {
 }
 
 nav {
-  position: absolute;
-  right: 30px;
+  position: relative;
+  float: right;
   top: 20px;
+  margin: 0px 20px 0px 0px;
 }
 
 ul {
@@ -50,7 +60,7 @@ li::before {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: rgb(51, 255, 197);
+  /* background-color: rgb(51, 255, 197); */
   margin: 300px 0px 0px 0px;
   color: white;
   font-family: "Azeret Mono", "Times New Roman";
@@ -94,8 +104,9 @@ li::before {
 
 .first-name {
   font-family: "Azeret Mono", "Times New Roman";
-  font-size: 40px;
-  color: rgb(51, 255, 197);
+  font-size: 60px;
+  color: white;
+  text-shadow: -2px 2px black;
   margin: 0px;
 }
 
@@ -122,17 +133,21 @@ li::before {
 .headshot {
   width: 250px;
   height: 250px;
-  margin: 100px 0px 0px 800px;
+  float: right;
+  margin: -50px 175px 50px 0px;
   border: solid 5px rgb(51, 255, 197);
-  padding: 25px;
-  background-color: rgb(36, 28, 27);
+  border-radius: 20px;
+  padding: 5px;
+  background-color: white;
+  box-shadow: -5px 5px black;
 }
 
 .last-name {
   font-family: "Azeret Mono", "Times New Roman";
-  font-size: 40px;
-  color: rgb(51, 255, 197);
-  margin: 0px 0px 0px 200px;
+  font-size: 60px;
+  color: white;
+  text-shadow: -2px 2px black;
+  margin: 0px 0px 0px 100px;
 }
 
 .linked-in {
@@ -188,22 +203,28 @@ li::before {
 }
 
 .name {
-  position: absolute;
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   flex-wrap: wrap;
-  top: 75px;
-  left: 300px;
+  top: 130px;
+  margin: 0px 0px 0px 150px;
   font-weight: 800;
 }
 
 .nav-link {
   margin: 0px 20px 0px 20px;
-  color: rgb(51, 255, 197);
-  font-size: 20px;
+  color: white;
+  text-shadow: -1.5px 1.5px black;
+  font-size: 25px;
   font-family: "Azeret Mono", "Times New Roman";
+}
+
+.nav-link:hover {
+  color: black;
+  text-shadow: -1px 1px white;
 }
 
 .page-break {
@@ -268,9 +289,3 @@ li::before {
   border: 1px solid white;
   margin: -4px 0px 0px 2px;
 }
-
-/* Floating animation for links
-
-@keyframes float {
-
-} */
