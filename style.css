@@ -326,6 +326,14 @@ li::before {
 }
 
 @media screen and (max-width: 1100px) {
+  header {
+    width: auto;
+  }
+
+  .about-me {
+    width: auto;
+  }
+
   .about-me-paragraph {
     margin: 100px 0px 50px 0px;
   }
@@ -333,9 +341,19 @@ li::before {
   .list {
     margin: 50px;
   }
+
   .headshot {
     display: none;
   }
+
+  .my-project {
+    width: auto;
+  }
+
+  .my-socials {
+    width: auto;
+  }
+
   .name {
     padding: 0px 0px 200px 0px;
   }
