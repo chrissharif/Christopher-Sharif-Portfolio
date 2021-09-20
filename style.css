@@ -17,15 +17,13 @@ a:active {
 
 body {
   background-color: white;
-  height: 100vh;
-  width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 header {
-  background-color: rgb(51, 255, 197);
+  background: linear-gradient(45deg, turquoise, rgb(51, 255, 197));
   border-radius: 30px;
   border: solid 5px white;
   height: auto;
@@ -60,16 +58,20 @@ li::before {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  /* background-color: rgb(51, 255, 197); */
-  margin: 300px 0px 0px 0px;
+  margin: 100px 0px 0px 0px;
   color: white;
   font-family: "Azeret Mono", "Times New Roman";
-  width: 100vw;
+  background: linear-gradient(45deg, turquoise, rgb(51, 255, 197));
+  border-radius: 30px;
+  border: solid 5px white;
+  height: auto;
+  width: 90vw;
+  box-shadow: -10px 10px black;
 }
 
 .about-me-paragraph {
   color: black;
-  margin: 100px 0px 300px 0px;
+  margin: 100px 0px 200px 0px;
   width: 500px;
   text-align: left;
   font-size: 20px;
@@ -161,7 +163,7 @@ li::before {
 }
 
 .list {
-  margin: 100px 0px 300px 100px;
+  margin: 100px 0px 200px 100px;
   color: black;
   font-size: 18px;
   background-color: white;
@@ -173,8 +175,17 @@ li::before {
 
 .my-projects {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  margin: 100px 0px 0px 100px;
+  justify-content: center;
+  margin: 100px 0px 0px 0px;
+  padding: 50px 0px 50px 0px;
+  background: linear-gradient(45deg, turquoise, rgb(51, 255, 197));
+  border-radius: 30px;
+  border: solid 5px white;
+  height: auto;
+  width: 90vw;
+  box-shadow: -10px 10px black;
 }
 
 .my-projects-title {
@@ -184,12 +195,22 @@ li::before {
   font-weight: 800;
   font-family: "Azeret Mono", "Times New Roman";
   text-align: center;
-  margin: -50px 0px 50px 500px;
+  margin: 0px 0px 50px 0px;
   width: 300px;
 }
 
 .my-socials {
-  margin: 200px 0px 0px 0px;
+  margin: 100px 0px 100px 0px;
+  background: linear-gradient(45deg, turquoise, rgb(51, 255, 197));
+  border-radius: 30px;
+  border: solid 5px white;
+  height: auto;
+  width: 90vw;
+  box-shadow: -10px 10px black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .my-socials-title {
@@ -198,7 +219,7 @@ li::before {
   font-size: 40px;
   font-weight: 800;
   font-family: "Azeret Mono", "Times New Roman";
-  margin: -50px 0px 50px 500px;
+  margin: 50px 0px 50px 0px;
   width: 300px;
 }
 
@@ -231,15 +252,15 @@ li::before {
   width: 80vw;
 }
 
-.page-break2 {
-  width: 80vw;
-  margin: 0px 0px 0px 130px;
-}
-
 .project {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 300px;
-  height: 200px;
-  margin: 0px 0px 150px 0px;
+  height: 300px;
+  margin: 70px 100px 0px 100px;
 }
 
 .project-image {
@@ -255,28 +276,27 @@ li::before {
 }
 
 .project-line {
-  margin: 0px 100px 100px 100px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .project-title {
   width: 250px;
-  height: 50px;
+  height: 100px;
   text-align: center;
   font-weight: 800;
   font-family: "Azeret Mono", "Times New Roman";
-  margin: 0px 0px 30px 80px;
+  margin: 0px 0px 30px 0px;
   font-size: 20px;
   background-color: white;
-  padding: 15px 0px 10px 0px;
+  padding: 20px;
   border: 2px solid black;
   border-radius: 20px;
   box-shadow: 5px 5px royalblue;
 }
 
 .socials {
-  margin: 200px 0px 0px 600px;
+  margin: 200px 0px 0px 0px;
   display: flex;
   justify-content: center;
   align-items: center;
