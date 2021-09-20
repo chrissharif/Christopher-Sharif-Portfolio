@@ -85,12 +85,23 @@ li::before {
 .about-me-text {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .about-me-title {
   text-shadow: -2px 2px black;
   font-size: 40px;
   font-weight: 800;
+}
+
+.all-projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .black-line {
@@ -125,7 +136,6 @@ li::before {
   width: 150px;
   height: 150px;
   display: inline-block;
-  margin: 0px 200px 0px 0px;
 }
 
 .github:hover {
@@ -295,17 +305,38 @@ li::before {
   box-shadow: 5px 5px royalblue;
 }
 
+.social {
+  margin: 50px;
+}
+
 .socials {
-  margin: 200px 0px 0px 0px;
+  margin: 100px 0px 0px 0px;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   width: auto;
-  padding: 0px 0px 200px 0px;
+  padding: 0px 0px 100px 0px;
 }
 
 .white-line {
   width: 80vw;
   border: 1px solid white;
   margin: -4px 0px 0px 2px;
+}
+
+@media screen and (max-width: 1100px) {
+  .about-me-paragraph {
+    margin: 100px 0px 50px 0px;
+  }
+
+  .list {
+    margin: 50px;
+  }
+  .headshot {
+    display: none;
+  }
+  .name {
+    padding: 0px 0px 200px 0px;
+  }
 }
