@@ -16,14 +16,18 @@ a:active {
 }
 
 body {
-  background-color: white;
+  background: linear-gradient(-140deg, black, white);
+  background-size: 1000% 1000%;
+  width: 100vw;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  animation: fade 5s ease infinite;
 }
 
 header {
-  background: linear-gradient(45deg, turquoise, rgb(51, 255, 197));
+  background: linear-gradient(45deg, black, rgb(51, 255, 197));
   border-radius: 30px;
   border: solid 5px white;
   height: auto;
@@ -61,7 +65,7 @@ li::before {
   margin: 100px 0px 0px 0px;
   color: white;
   font-family: "Azeret Mono", "Times New Roman";
-  background: linear-gradient(45deg, turquoise, rgb(51, 255, 197));
+  background: linear-gradient(45deg, black, rgb(51, 255, 197));
   border-radius: 30px;
   border: solid 5px white;
   height: auto;
@@ -79,7 +83,7 @@ li::before {
   padding: 20px;
   border: 2px solid black;
   border-radius: 20px;
-  box-shadow: 5px 8px royalblue;
+  box-shadow: 5px 8px rgb(0, 48, 0);
 }
 
 .about-me-text {
@@ -180,7 +184,7 @@ li::before {
   padding: 20px;
   border: 2px solid black;
   border-radius: 20px;
-  box-shadow: 5px 8px royalblue;
+  box-shadow: 5px 8px rgb(0, 48, 0);
 }
 
 .my-projects {
@@ -190,7 +194,7 @@ li::before {
   justify-content: center;
   margin: 100px 0px 0px 0px;
   padding: 50px 0px 50px 0px;
-  background: linear-gradient(45deg, turquoise, rgb(51, 255, 197));
+  background: linear-gradient(45deg, black, rgb(51, 255, 197));
   border-radius: 30px;
   border: solid 5px white;
   height: auto;
@@ -211,7 +215,7 @@ li::before {
 
 .my-socials {
   margin: 100px 0px 100px 0px;
-  background: linear-gradient(45deg, turquoise, rgb(51, 255, 197));
+  background: linear-gradient(45deg, black, rgb(51, 255, 197));
   border-radius: 30px;
   border: solid 5px white;
   height: auto;
@@ -282,7 +286,7 @@ li::before {
 }
 
 .project-image:hover {
-  border: 5px solid royalblue;
+  border: 5px solid rgb(0, 48, 0);
 }
 
 .project-line {
@@ -302,7 +306,7 @@ li::before {
   padding: 20px;
   border: 2px solid black;
   border-radius: 20px;
-  box-shadow: 5px 5px royalblue;
+  box-shadow: 5px 5px rgb(0, 48, 0);
 }
 
 .social {
@@ -356,5 +360,17 @@ li::before {
 
   .name {
     padding: 0px 0px 200px 0px;
+  }
+}
+
+@keyframes fade {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
   }
 }
